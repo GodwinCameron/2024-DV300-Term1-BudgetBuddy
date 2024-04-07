@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots snapshot of taxes 1`] = `
+<DocumentFragment>
+  <div
+    data-toggle="tooltip"
+    title="Those bastards!"
+  >
+    <h3>
+      Tax Bracket Calculation
+    </h3>
+    <div
+      class="scroll-row hide-scroll"
+    />
+  </div>
+</DocumentFragment>
+`;

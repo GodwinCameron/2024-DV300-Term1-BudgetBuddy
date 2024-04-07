@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots snapshot of App 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="topbar p-3 mb-4 col-12"
+      >
+        <h2
+          class="title"
+        >
+          <img
+            height="60"
+            src="logo512.png"
+            width="60"
+          />
+          <span>
+            BudgetBuddy
+          </span>
+        </h2>
+        <button
+          class="btn btn-primary"
+          type="button"
+        >
+          <img
+            height="30"
+            src="reset.png"
+            width="30"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-5 col-sm-12 col-12"
+      >
+        <div
+          class="card shadow-sm p-3 mb-4 bg-white rounded"
+        >
+          <div>
+            <h3>
+              Household Montly Salaries
+            </h3>
+            <form
+              class="form-row"
+              data-testid="form"
+            >
+              <select
+                autocomplete="off"
+                class="form-select"
+                name="icon"
+              >
+                <option
+                  disabled=""
+                  selected=""
+                >
+                  -
+                </option>
+                <option
+                  value="👩"
+                >
+                  👩
+                </option>
+                <option
+                  value="👱‍♂️"
+                >
+                  👱‍♂️
+                </option>
+                <option
+                  value="🐶"
+                >
+                  🐶
+                </option>
+                <option
+                  value="🐱"
+                >
+                  🐱
+                </option>
+                <option
+                  value="🐰"
+                >
+                  🐰
+                </option>
+                <option
+                  value="🐻"
+                >
+                  🐻
+                </option>
+                <option
+                  value="🦁"
+                >
+                  🦁
+                </option>
+                <option
+                  value="🐷"
+                >
+                  🐷
+                </option>
+                <option
+                  value="🐮"
+                >
+                  🐮
+                </option>
+              </select>
+              <input
+                autocomplete="off"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Member Name"
+                type="text"
+              />
+              <input
+                autocomplete="off"
+                class="form-control"
+                id="income"
+                name="income"
+                placeholder="0.00"
+                step="0.01"
+                type="number"
+              />
+              <button
+                class="add-income btn btn-primary"
+                type="submit"
+              >
+                Add
+              </button>
+            </form>
+            <div
+              class="income-outer hide-scroll"
+            />
+          </div>
+        </div>
+        <div
+          class="card shadow-sm p-3 mb-4 bg-white rounded"
+        >
+          <div
+            data-toggle="tooltip"
+            title="Those bastards!"
+          >
+            <h3>
+              Tax Bracket Calculation
+            </h3>
+            <div
+              class="scroll-row hide-scroll"
+            />
+          </div>
+        </div>
+        <div
+          class="card shadow-sm p-3 mb-4 bg-white rounded"
+        >
+          <div>
+            <div
+              class="title-row"
+            >
+              <h3>
+                Savings Calculation
+              </h3>
+              <span>
+                <p>
+                  % you want to save
+                </p>
+                <select
+                  autocomplete="off"
+                  class="form-select"
+                  id="percentage"
+                  name="percentage"
+                >
+                  <option
+                    disabled=""
+                    selected=""
+                  >
+                    -
+                  </option>
+                  <option
+                    value="5"
+                  >
+                    5%
+                  </option>
+                  <option
+                    value="10"
+                  >
+                    10%
+                  </option>
+                  <option
+                    value="15"
+                  >
+                    15%
+                  </option>
+                  <option
+                    value="20"
+                  >
+                    20%
+                  </option>
+                </select>
+              </span>
+            </div>
+            <div
+              class="scroll-row hide-scroll"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-4 col-12"
+      >
+        <div
+          class="card shadow-sm p-3 mb-4 bg-white rounded"
+        >
+          <div>
+            <h3>
+              Household Montly Expenses
+            </h3>
+            <div
+              class="form-row"
+            >
+              <input
+                autocomplete="off"
+                class="form-control"
+                id="title"
+                name="title"
+                placeholder="Expense Title"
+                type="text"
+              />
+              <input
+                autocomplete="off"
+                class="form-control"
+                id="expense"
+                name="expense"
+                placeholder="0.00"
+                step="0.01"
+                type="number"
+              />
+              <button
+                class="add-expenses btn btn-primary"
+                type="button"
+              >
+                Add
+              </button>
+            </div>
+            <div
+              class="expense-outer hide-scroll"
+            >
+              <div
+                class="card card-row p-3 mb-2 row-expense"
+                data-testid="expense-row"
+              >
+                <p>
+                  Netflix
+                </p>
+                <p
+                  class="amount"
+                >
+                  R 200.00
+                </p>
+              </div>
+              <div
+                class="card card-row p-3 mb-2 row-expense"
+                data-testid="expense-row"
+              >
+                <p>
+                  Petrol
+                </p>
+                <p
+                  class="amount"
+                >
+                  R 2,500.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-3 col-12"
+      >
+        <div
+          class="card shadow-sm p-3 mb-4 rounded last-total-card"
+        >
+          <div
+            class="final-total p-2"
+          >
+            <div
+              class="icon"
+              style="background-color: rgb(252, 58, 33);"
+            >
+              <img
+                height="40"
+                src="wallet.png"
+                width="40"
+              />
+            </div>
+            <h2
+              style="color: rgb(255, 116, 94);"
+            >
+              -R 2,700.00
+            </h2>
+            <p>
+              Total Left To Spend Each Month 😭
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
